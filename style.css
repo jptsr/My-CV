@@ -6,3 +6,15 @@
     src: url("D:/Documents/BeCode/Exe/ReproducingLayout/reproducing-layout/resources/Marcellus-Regular.ttf") format("truetype");
 }
 
+body{
+    margin: 30px 200px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 0.01fr 1fr 0.01fr 1fr;    
+}
